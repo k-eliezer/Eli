@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #0078d4;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 120, 212, 0.2);
+}
+
+/* Left Section: User Info */
+.user-info {
+    flex: 1;
+    padding: 20px;
+    background: #e6f7ff;
+    border-radius: 10px;
+}
+
+.user-info h2 {
+    font-size: 1.8rem;
+    color: #004d80;
+}
+
+.user-info p {
+    font-size: 1.2rem;
+}
+
+/* Right Section: Records */
+.records-section {
+    flex: 2;
+    padding: 20px;
+}
+
+.records-section h2 {
+    font-size: 1.5rem;
+    color: #004d80;
+}
+
+.records-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.records-section li {
+    background: #e6f7ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+}
+
+.records-section li:hover {
+    background: #cceeff;
+}
+
+.records-section a {
+    text-decoration: none;
+    color: #004d80;
+    font-weight: 600;
+    display: block;
+}
